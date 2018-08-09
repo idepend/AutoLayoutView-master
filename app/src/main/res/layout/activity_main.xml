@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center|left"
+                android:text="滑动控件居中显示"
+                android:textColor="#000" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF">
+
+                <com.auto.widget.view.HorizontalScollTabHost
+                    android:id="@+id/tabhost"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="48dp"
+                    android:layout_marginTop="5dp" />
+
+                <ImageView
+                    android:id="@+id/mall_more_image"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@mipmap/more" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="自动换行显示控件（根据布局或者单个控件来显示）"
+                android:textColor="#000" />
+
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="add"
+                android:textSize="20dp"
+                android:visibility="gone" />
+
+            <com.auto.widget.view.WarpLinearLayout
+                android:id="@+id/warpLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn"
+                android:background="#FFF"
+                android:padding="10dp"
+                app:grivate="left"
+                app:horizontal_Space="10dp"
+                app:isFull="false"
+                app:vertical_Space="10dp"></com.auto.widget.view.WarpLinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="自动换行显示图标控件（同上）"
+                android:textColor="#000" />
+
+            <com.auto.widget.view.AutoLayoutView
+                android:id="@+id/autoView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></com.auto.widget.view.AutoLayoutView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
