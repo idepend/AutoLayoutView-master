@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AutoAddWidget-master.iml" filepath="$PROJECT_DIR$/AutoAddWidget-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutoLayoutView-master.iml" filepath="$PROJECT_DIR$/AutoLayoutView-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
