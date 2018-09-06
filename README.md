@@ -2,4 +2,6 @@
 
 效果图
 
-![image](https://github.com/wangjiand/AutoLayoutView-master/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+![image](https://github.com/wangjiand/AutoLayoutView-master/blob/master/image/gifs.gif)
+
+![image](https://github.com/wangjiand/AutoLayoutView-master/blob/master/image/0180810171349.jpg)
